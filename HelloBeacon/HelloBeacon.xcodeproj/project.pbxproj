@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5E0C171990F42200A72E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E0C161990F42200A72E4A /* main.m */; };
+		AE5E0C1A1990F42200A72E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E0C191990F42200A72E4A /* AppDelegate.m */; };
+		AE5E0C1D1990F42200A72E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E0C1C1990F42200A72E4A /* ViewController.m */; };
+		AE5E0C201990F42200A72E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5E0C1E1990F42200A72E4A /* Main.storyboard */; };
+		AE5E0C221990F42200A72E4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5E0C211990F42200A72E4A /* Images.xcassets */; };
+		AE5E0C2E1990F42300A72E4A /* HelloBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E0C2D1990F42300A72E4A /* HelloBeaconTests.m */; };
+		AE5E0C381990F66300A72E4A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5E0C371990F66300A72E4A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5E0C281990F42300A72E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5E0C091990F42200A72E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5E0C101990F42200A72E4A;
+			remoteInfo = HelloBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE5E0C111990F42200A72E4A /* HelloBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5E0C151990F42200A72E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5E0C161990F42200A72E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE5E0C181990F42200A72E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE5E0C191990F42200A72E4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE5E0C1B1990F42200A72E4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE5E0C1C1990F42200A72E4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE5E0C1F1990F42200A72E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5E0C211990F42200A72E4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE5E0C271990F42300A72E4A /* HelloBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5E0C2C1990F42300A72E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5E0C2D1990F42300A72E4A /* HelloBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloBeaconTests.m; sourceTree = "<group>"; };
+		AE5E0C371990F66300A72E4A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5E0C0E1990F42200A72E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5E0C381990F66300A72E4A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5E0C241990F42300A72E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5E0C081990F42200A72E4A = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C371990F66300A72E4A /* CoreLocation.framework */,
+				AE5E0C131990F42200A72E4A /* HelloBeacon */,
+				AE5E0C2A1990F42300A72E4A /* HelloBeaconTests */,
+				AE5E0C121990F42200A72E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5E0C121990F42200A72E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C111990F42200A72E4A /* HelloBeacon.app */,
+				AE5E0C271990F42300A72E4A /* HelloBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5E0C131990F42200A72E4A /* HelloBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C181990F42200A72E4A /* AppDelegate.h */,
+				AE5E0C191990F42200A72E4A /* AppDelegate.m */,
+				AE5E0C1B1990F42200A72E4A /* ViewController.h */,
+				AE5E0C1C1990F42200A72E4A /* ViewController.m */,
+				AE5E0C1E1990F42200A72E4A /* Main.storyboard */,
+				AE5E0C211990F42200A72E4A /* Images.xcassets */,
+				AE5E0C141990F42200A72E4A /* Supporting Files */,
+			);
+			path = HelloBeacon;
+			sourceTree = "<group>";
+		};
+		AE5E0C141990F42200A72E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C151990F42200A72E4A /* Info.plist */,
+				AE5E0C161990F42200A72E4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE5E0C2A1990F42300A72E4A /* HelloBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C2D1990F42300A72E4A /* HelloBeaconTests.m */,
+				AE5E0C2B1990F42300A72E4A /* Supporting Files */,
+			);
+			path = HelloBeaconTests;
+			sourceTree = "<group>";
+		};
+		AE5E0C2B1990F42300A72E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E0C2C1990F42300A72E4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5E0C101990F42200A72E4A /* HelloBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5E0C311990F42300A72E4A /* Build configuration list for PBXNativeTarget "HelloBeacon" */;
+			buildPhases = (
+				AE5E0C0D1990F42200A72E4A /* Sources */,
+				AE5E0C0E1990F42200A72E4A /* Frameworks */,
+				AE5E0C0F1990F42200A72E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloBeacon;
+			productName = HelloBeacon;
+			productReference = AE5E0C111990F42200A72E4A /* HelloBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5E0C261990F42300A72E4A /* HelloBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5E0C341990F42300A72E4A /* Build configuration list for PBXNativeTarget "HelloBeaconTests" */;
+			buildPhases = (
+				AE5E0C231990F42300A72E4A /* Sources */,
+				AE5E0C241990F42300A72E4A /* Frameworks */,
+				AE5E0C251990F42300A72E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5E0C291990F42300A72E4A /* PBXTargetDependency */,
+			);
+			name = HelloBeaconTests;
+			productName = HelloBeaconTests;
+			productReference = AE5E0C271990F42300A72E4A /* HelloBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5E0C091990F42200A72E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yannick Weiss";
+				TargetAttributes = {
+					AE5E0C101990F42200A72E4A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AE5E0C261990F42300A72E4A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AE5E0C101990F42200A72E4A;
+					};
+				};
+			};
+			buildConfigurationList = AE5E0C0C1990F42200A72E4A /* Build configuration list for PBXProject "HelloBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5E0C081990F42200A72E4A;
+			productRefGroup = AE5E0C121990F42200A72E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5E0C101990F42200A72E4A /* HelloBeacon */,
+				AE5E0C261990F42300A72E4A /* HelloBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5E0C0F1990F42200A72E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5E0C201990F42200A72E4A /* Main.storyboard in Resources */,
+				AE5E0C221990F42200A72E4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5E0C251990F42300A72E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5E0C0D1990F42200A72E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5E0C1D1990F42200A72E4A /* ViewController.m in Sources */,
+				AE5E0C1A1990F42200A72E4A /* AppDelegate.m in Sources */,
+				AE5E0C171990F42200A72E4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5E0C231990F42300A72E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5E0C2E1990F42300A72E4A /* HelloBeaconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5E0C291990F42300A72E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5E0C101990F42200A72E4A /* HelloBeacon */;
+			targetProxy = AE5E0C281990F42300A72E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE5E0C1E1990F42200A72E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5E0C1F1990F42200A72E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE5E0C2F1990F42300A72E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE5E0C301990F42300A72E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE5E0C321990F42300A72E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE5E0C331990F42300A72E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE5E0C351990F42300A72E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloBeacon.app/HelloBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AE5E0C361990F42300A72E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloBeacon.app/HelloBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5E0C0C1990F42200A72E4A /* Build configuration list for PBXProject "HelloBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5E0C2F1990F42300A72E4A /* Debug */,
+				AE5E0C301990F42300A72E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5E0C311990F42300A72E4A /* Build configuration list for PBXNativeTarget "HelloBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5E0C321990F42300A72E4A /* Debug */,
+				AE5E0C331990F42300A72E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE5E0C341990F42300A72E4A /* Build configuration list for PBXNativeTarget "HelloBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5E0C351990F42300A72E4A /* Debug */,
+				AE5E0C361990F42300A72E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5E0C091990F42200A72E4A /* Project object */;
+}

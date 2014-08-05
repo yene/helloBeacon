@@ -1,0 +1,19 @@
+//
+//  AppDelegate.h
+//  HelloBeacon
+//
+//  Created by Yannick Weiss on 05/08/14.
+//  Copyright (c) 2014 Yannick Weiss. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@import CoreLocation;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
+@end
+
