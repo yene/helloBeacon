@@ -169,6 +169,11 @@
 				TargetAttributes = {
 					AE5E0C101990F42200A72E4A = {
 						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					AE5E0C261990F42300A72E4A = {
 						CreatedOnToolsVersion = 6.0;
@@ -406,6 +411,7 @@
 				AE5E0C331990F42300A72E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE5E0C341990F42300A72E4A /* Build configuration list for PBXNativeTarget "HelloBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +420,7 @@
 				AE5E0C361990F42300A72E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

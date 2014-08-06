@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7140F28-0A04-41E5-85FD-4E9C45B05E15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloBeacon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CB4347D-E309-4657-9EB9-D25EEF4F774A</key>
+		<string>ssh://github.com/yene/helloBeacon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HelloBeacon/HelloBeacon.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CB4347D-E309-4657-9EB9-D25EEF4F774A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/yene/helloBeacon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CB4347D-E309-4657-9EB9-D25EEF4F774A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CB4347D-E309-4657-9EB9-D25EEF4F774A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>helloBeacon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
