@@ -26,6 +26,7 @@
 	<string>Please grant me passing</string>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>bluetooth-central</string>
 		<string>bluetooth-peripheral</string>
 		<string>location</string>
 	</array>

@@ -10,29 +10,29 @@
 	<string>HelloBeacon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9CB4347D-E309-4657-9EB9-D25EEF4F774A</key>
+		<key>E4C391224263CC622B863CDDD761D51FBDB513D9</key>
 		<string>ssh://github.com/yene/helloBeacon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HelloBeacon/HelloBeacon.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9CB4347D-E309-4657-9EB9-D25EEF4F774A</key>
+		<key>E4C391224263CC622B863CDDD761D51FBDB513D9</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/yene/helloBeacon.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9CB4347D-E309-4657-9EB9-D25EEF4F774A</string>
+	<string>E4C391224263CC622B863CDDD761D51FBDB513D9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9CB4347D-E309-4657-9EB9-D25EEF4F774A</string>
+			<string>E4C391224263CC622B863CDDD761D51FBDB513D9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>helloBeacon</string>
 		</dict>
